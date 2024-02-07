@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: LoginSignup(),
     );
   }
@@ -443,7 +444,7 @@ class LoginSignup extends StatefulWidget {
 }
 
 class _LoginSignup extends State<LoginSignup> {
-  bool loginPage = false;
+  bool loginPage = true;
 
   String email = "";
   String password = "";
