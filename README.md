@@ -5,7 +5,7 @@
 
 ## Futurs
 
-Added new futurs Login Screen and Signup Screen
+Added new futurs Login Screen, Signup Screen and Dashboard
 
 ## How to Run
 
